@@ -1,0 +1,84 @@
+import numpy as np
+import sys
+import struct
+
+if len(sys.argv)<2:
+    print(' ')
+    print(' usage:',sys.argv[0],'file.bindatx [opts]')
+    print('    opts include: circle:RA:DEC:RADIUS where')
+    print('    RA,DEC,RADIUS are loc and radius of circular patch,in decimal degree.')
+    print('    Example:')
+    print('      circle:80.8942:-69.7561:10.0 selects a 10 deg circle on the LMC') 
+    print(' ')
+    quit()
+
+
+deg = np.pi/180.0
+racirc = deccirc = 0.0
+radius = 0.0
+
+fin = sys.argv[1]
+for mode in sys.argv[2:]:
+    msplit = mode.split(':')
+    if msplit[0]=='circle' and len(msplit)==4:
+        racirc = float(msplit[1])
+        deccirc = float(msplit[2])
+        radius = float(msplit[3])
+
+
+a2=racirc*deg; d2 = deccirc*deg
+
+# i don;t know what I'm doing here...
+print('unpacking data....')
+
+# describes the binary data format:
+brdx = '@dddddddddddQi' 
+brdxtrusiz = 8*brdx.count('d')+8*brdx.count('Q')+4*brdx.count('i')
+brdxsiz = (int(brdxtrusiz/8) + 1) * 8 # ugh.size of a data block in the C code output
+print('using bindat @blocks',brdxsiz,'bytes')
+
+# this will help extract C-like struct 
+dt = np.dtype([('ra','f8'),('dec','f8'),('pax','f8'),('paxerr','f8'),('pmra','f8'),\
+                   ('pmraerr','f8'),('pmdec','f8'),('pmdecerr','f8'),('pmcorr','f8'),\
+                   ('bprp','f8'),('gmag','f8'),('des','u8')])
+
+ctsel = 0
+ctall = 0
+blocksiz = brdxsiz * 100000
+
+rasel = np.empty(0)
+decsel = np.empty(0)
+
+with open(fin, mode='rb') as file: 
+    # block read:
+    done = False # screw it, C++ here w/o a do loop
+    while not done:
+        bindatx = file.read(blocksiz*brdxsiz) # np.fromfile barfed for me....
+        if len(bindatx)==0:
+            done=True; break
+        # just convert bin to an array...
+        bindatx = np.fromstring(bindatx,dtype='b')
+        # then reshape it into blocks of length brdxsiz....
+        bindatx = bindatx.reshape(len(bindatx)/brdxsiz,brdxsiz)
+
+        dall = np.fromstring(bindatx[:,0:96].flatten(),dtype=dt)
+        print(dall.shape)
+
+        # extract just what we need
+        ra = dall[:]['ra']
+        dec = dall[:]['dec']
+        
+        # select sky region
+        (a1,d1)=(ra*deg,dec*deg) # radians
+        cosdel=np.sin(d1)*np.sin(d2)+np.cos(d1)*np.cos(d2)*np.cos(a1-a2);
+        msk = (cosdel>=np.cos(radius*deg))
+
+        # save selected ra,dec values
+        rasel = np.append(rasel,ra)
+        decsel = np.append(decsel,dec)
+
+        ctall += len(ra)
+        ctsel += np.sum(msk)
+        print('total read, total selected:',ctall,ctsel)
+
+        print(len(rasel))

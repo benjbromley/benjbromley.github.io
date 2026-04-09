@@ -1,0 +1,65 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Grid</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 15px;
+                padding: 20px;
+                max-width: 1200px;
+                margin: auto;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .grid-item {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+            }
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+    
+        <div class="grid-item">
+            <a href="images/U_logo.gif">
+            <img src="images/U_logo.gif" alt="U_logo.gif"></a>
+        </div>
+        
+        <div class="grid-item">
+            <a href="images/hdr_bg.jpg">
+            <img src="images/hdr_bg.jpg" alt="hdr_bg.jpg"></a>
+        </div>
+        
+        <div class="grid-item">
+            <a href="images/pal5sim.jpg">
+            <img src="images/pal5sim.jpg" alt="pal5sim.jpg"></a>
+        </div>
+        
+        </div>
+    </body>
+    </html>
+    
