@@ -79,8 +79,8 @@ hr {
 /*-------------- HEADER STYLES --------------------*/
 
 #header {
-/*	width:100%; */
-        width:1135px;
+	width:100%; 
+/*        width:1135px; */
 	border-top: #606060 2px solid;
 	border-bottom: #606060 4px solid;
 	background-color:#606060;
@@ -168,7 +168,7 @@ hr {
 	margin:0;
 	padding: 10px 70px 10px 70px;
 	font-size:92.5%;
-	width:1003px;
+	/* width:1003px; */
         max-width:88%;
 }
 
