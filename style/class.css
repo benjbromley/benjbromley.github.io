@@ -97,9 +97,10 @@ hr {
 	width:100%;
 	background: url(../images/hdr_bg.jpg);
 	color:#fff;
-	vertical-align:text-top;
+	vertical-align:text-center;
+	align:center;
 	margin:0px;
-	padding:0px;
+	padding:10px;
 }
 
 #headertxt img { vertical-align:center; }
