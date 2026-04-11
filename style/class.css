@@ -103,7 +103,7 @@ hr {
 	padding:10px;
 }
 
-#headertxt img { vertical-align:center; }
+#headertxt img { vertical-align:center; width:100%; }
 
 #headertxt table {
     border:0px;
