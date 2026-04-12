@@ -9,6 +9,7 @@ body {
 		font: 72.01% Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif; */
 	font: 72.01% Arial; 
 	font-family: Arial;
+	
 }
 
 h1 { margin: 0.5em 0 0.5em 0; }
@@ -61,11 +62,11 @@ hr {
 #header {
 	width:100%; 
 /*        width:1135px; */
-	border-top: #606060 2px solid;
-	border-bottom: #606060 4px solid;
+	border-top: #606060 0px solid;
+	border-bottom: #606060 0px solid;
 	background-color:#606060;
-	margin:5px;
-	padding:2px;
+	margin:0px;
+	padding:0px;
         max-width:100%;
 }
 
@@ -79,8 +80,8 @@ hr {
 	color: #fff;
 	vertical-align: text-bottom;
 	align: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 20px;
+	padding: 20px;
 }
 
 #headertxt img { vertical-align:center; width:100%; }
@@ -91,35 +92,6 @@ hr {
     padding: 0px 0px 0px 0px;
     vertical-align:top;
     margin:0px;
-}
-
-#headertxt table td.dept {
-    text-align:left;
-    padding:14px 0px 3px 0px;
-    font-family:Arial, sans-serif;
-    color:#fff; font-size:100%; 
-    border-bottom: 1px solid white;
-}
-
-#headertxt table td.univ {
-    text-align:left;
-    vertical-align: top;
-    padding: 3px 0px 0px 0px;
-    font-family:Times;
-    color:#fff; font-size:95%; 
-}
-
-#headertxt table td.img {
-    align:left;
-    padding: 0px 10px 0px 0px;
-    margin: 0px;
-    background-color: #606060;
-}
-
-
-#headertxt table td.spacer {
-    text-align:center;
-    padding: 0px 0px 0px 10px;
 }
 
 #headerlinks {
