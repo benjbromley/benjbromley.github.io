@@ -75,7 +75,8 @@ hr {
 
 #headertxt {
 	width:100%;
-	background: url(../images/hdr_bg.jpg);
+	/* background: url(../images/hdr_bg.jpg); */
+	background: url(../images/pal5sim.jpg);
 	color: #fff;
 	vertical-align: text-bottom;
 	align: center;
