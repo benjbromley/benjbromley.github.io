@@ -17,7 +17,7 @@ h2, h3 { margin: 1.2em 0 0.5em 0.1em; }
 h4, h5, h6 { padding: 0.5em 0 0 0; }
 
 h1, h2, h3, h4, h5 { font-family: Arial; }
-h1 { font-size: 145%; color: #900; letter-spacing: .02em; font-family: Arial; }
+h1 { font-size: 145%; color: #fff; letter-spacing: .02em; font-family: Arial; }
 h1.sub { font-size: 125%; margin: 0 0 0.2em 0  }
 
 h2  { font-size: 130%; color: #900; }
