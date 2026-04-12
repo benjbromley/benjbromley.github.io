@@ -5,9 +5,8 @@ html, body, ul, ol, li p, h1, h2, h3, h4, h5, h6, form, fieldset {
 }
 
 body {
-	background: #ccc /* bcb xxxxxx url(../images/background/page-bg.gif) repeat;
-		font: 72.01% Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif; */
-	font: 72.01% Arial; 
+	background: #ccc 
+	font: 100% Arial; 
 	font-family: Arial;
 	
 }
