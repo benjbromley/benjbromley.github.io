@@ -63,7 +63,7 @@ hr {
     position: relative;
     width: 100%;
     height: 300px;
-    background: url(./images/pal5sim.jpg) center / cover no-repeat;
+    background: url(../images/pal5sim.jpg) center / cover no-repeat;
 }
 
 .overlay-text {
