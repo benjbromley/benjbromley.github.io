@@ -16,7 +16,7 @@ h2, h3 { margin: 1.2em 0 0.5em 0.1em; }
 h4, h5, h6 { padding: 0.5em 0 0 0; }
 
 h1, h2, h3, h4, h5 { font-family: Arial; }
-h1 { font-size: 145%; color: #fff; letter-spacing: .02em; font-family: Arial; }
+h1 { font-size: 205%; color: #fff; letter-spacing: .02em; font-family: Arial; font-weight: bold; }
 h1.sub { font-size: 125%; margin: 0 0 0.2em 0  }
 
 h2  { font-size: 130%; color: #900; }
@@ -146,7 +146,7 @@ hr {
 	text-align: left;
 	margin:0;
 	padding: 10px 70px 10px 70px;
-	font-size:110%;
+	font-size:80%;
 	font-weight: bolr;
 	/* width:1003px; */
         max-width:88%;
