@@ -68,7 +68,7 @@ hr {
 
 .overlay-text {
     position: absolute;
-    bottom: 30px;   /* or top, center, etc. */
+    top: 30px;   /* or top, center, etc. */
     left: 10%;
     transform: translateX(-50%);
     color: white;
