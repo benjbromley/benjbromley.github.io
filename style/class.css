@@ -98,7 +98,10 @@ hr {
 	vertical-align: text-bottom;
 	align: center;
 	margin: 0px;
-	padding: 20px;
+	padding: 20px;	
+    font-size: 2.5rem;     /* increase text size */
+    font-weight: bold;    /* or 700 */
+
 }
 
 
