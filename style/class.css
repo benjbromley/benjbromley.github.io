@@ -177,17 +177,17 @@ hr {
 	font-weight: bold;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	color: #fff;
+	color: #888;
 	padding: 0 .2em 0 .5em;
 }
 #footer li {
-	border-left: #fff 1px solid;
+	border-left: #888 1px solid;
 }
 #footer li.firstItem {
 	border-left: none;
 }
 #footer a:link, #footer a:visited { 
-	color:#fff; 
+	color:#888; 
 	text-decoration: none; 	
 }
 
