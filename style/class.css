@@ -42,8 +42,8 @@ p {
 strong { font-weight: bold; color: #666; /* bcb was 666 */ }
 em { font-style: italic; }
 a { font-weight: normal; }
-a:link { color: #8f5917; text-decoration: none; }
-a:visited { color: #8f5917; text-decoration: none; } /* bcb was #666 */
+a:link { color: #175999; text-decoration: none; }
+a:visited { color: #175999; text-decoration: none; } /* bcb was #666 */
 
 hr {
 	border: 0;
