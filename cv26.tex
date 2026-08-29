@@ -1,0 +1,1320 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+
+\def\ti{}  % style for title of journal in ad hoc reviewer list
+
+\def\refitem{} % to count ref articles cuz i am too lazy-ass to do it.
+
+\topmargin -18pt
+\evensidemargin 0.0in
+\oddsidemargin 0.0in
+\textwidth 6.25in
+\textheight 9.99in
+\headheight -0.25in
+\headsep 0.0in
+\parskip 11pt
+\parindent 0pt
+
+\def\defsty{\setlength{\parskip}{11pt}
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\parindent}{0in}}
+
+\def\bibsty{\setlength{\parskip}{0pt}
+\setlength{\oddsidemargin}{0.33in}
+\setlength{\evensidemargin}{0.33in}
+\setlength{\parindent}{-0.33in}}
+
+\newcommand{\shead}[1]{\vspace{12.5pt}\centerline{{\bf{#1}}}}
+\newcommand{\sheadalt}[1]{\vspace{10pt}\hspace{0.5in}{\it{#1}}}
+% \newcommand{\shead}[1]{\vspace{10pt}\hspace{0.5in}{\bf{#1}}}
+% \newcommand{\sheadalt}[1]{\vspace{10pt}\hspace{0.5in}{\it{#1}}}
+\newcommand{\comment}[1]{}
+
+%\newcommand{\allproceedings}[1]{#1}
+\newcommand{\allproceedings}[1]{}
+\newcommand{\commentout}[1]{}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{22pt}
+\centerline{\large\bf Benjamin C.\ Bromley}
+
+\vspace{-11pt}
+\begin{center}
+\footnotesize
+Department of Physics and Astronomy $\cdot$
+University of Utah
+$\cdot$
+South 1400 East, JFB 201 $\cdot$
+Salt Lake City, UT \ 84112
+
+\vspace{-7.75pt}
+\parbox[t]{1.5in}{
+\begin{tabular}{rl}
+{\it Phone:} & {(801) 581-8227}\\
+{\it Fax:} & {(801) 581-4801}
+\end{tabular}
+}
+\ \ \ \ \ 
+\parbox[t]{3.0in}{
+\begin{tabular}{rl}
+{\it {E}-mail:} & {\small\tt bromley@physics.utah.edu}\\
+{\it {URL}:} & {\small\tt www.physics.utah.edu/\~{}bromley}
+\end{tabular}
+}
+\end{center}
+
+\shead{Overview}
+
+\hspace*{0.5in}
+\begin{minipage}{5.5in}
+%\setlength{\parindent=-0.25in} \setlength{\leftmargin=0.75in}
+\setlength{\parindent=-0.5in} \setlength{\leftmargin=1.0in}
+$\bullet$ 
+% {\em Current position:} 
+Professor of Physics and Astronomy, specializing in theoretical and
+computational astrophysics (planet formation, galactic dynamics, and
+relativistic astrophysics).
+
+$\bullet$ 
+% {\em Publications and funding:} 
+100+ refereed publications, 4500+ citations, h-index=42 (normalized: 24; as lead: 19); % including JPDC, watch google on PCLM
+%$\bullet$ % {\em Funding and supercomputing allocations:} 
+PI/CoI on 10 grants, $\sim$\$2M total; Supercomputing allocations of
+$\sim$6M core-hours per year.
+
+$\bullet$ 
+% {\em Selected academic experience:}
+Taught $\sim$3000 students; Courses include Intro Physics, Astronomy
+and grad-level Computational Physics; Advisees: 18 B.S., 6 M.S. and 7
+PhD.
+
+$\bullet$ Administrative positions
+include Department Chair, Associate Chair, Director of Graduate Studies,
+University Graduate Council.
+
+%$\bullet$ {\em Administrative responsibilites:} 
+%Departmental Policy (executive) Board, Director of Graduate Studies;
+%University Graduate Council.
+\end{minipage}
+
+\vspace{11pt}
+\shead{Education}
+
+\hspace*{0.6in}%
+{\mbox{}}
+\parbox[t]{5.5in}{%
+\parbox[t]{0.3999in}{Ph.D.} Physics, 
+{\em Dartmouth College}, Hanover, NH, 1994.\\
+\hspace*{0.5in}{\em Thesis:}
+%{Clustering analysis of cosmic density fields.} \\
+{Wavelet analysis of the large-scale structure of the universe.} \\
+%
+\parbox[t]{0.3999in}{M.S.}%
+Physics, {\em University of Vermont}, Burlington, VT, 1987. \\
+\hspace*{0.5in}{\em Thesis:}
+{Information theoretical study of quasi-elastic photon 
+scattering.} \\
+%
+\parbox[t]{0.3999in}{B.A.}%
+\mbox{Physics/Chemistry (Honors), {\em Middlebury College}, Middlebury, 
+VT, 1982.} \\
+\hspace*{0.5in}{\em Thesis:}
+{X-ray spectroscopy of supernova remnant Puppis A.}
+}
+
+\vspace{11pt}
+\shead{Experience}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.5in}%
+\setlength{\leftmargin}{0.7in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-7.75pt}
+\item Professor, Department of Physics and Astronomy,
+{\em University of Utah}, Salt Lake City, UT\\
+(July, 2006--present).
+%
+\item Associate Professor, Department of Physics,
+{\em University of Utah}, Salt Lake City, UT\\
+(July, 2003--June, 2006).
+%
+\item Assistant Professor, Department of Physics,
+{\em University of Utah}, Salt Lake City, UT\\
+({August, 1998--June, 2003}).
+%
+\item Postdoctoral Fellow, 
+Department of Physics,
+{\em Harvard University,} Cambridge MA\\
+({September, 1996--July, 1998}). 
+%
+\item Postdoctoral Research Fellow, 
+Theoretical Astrophysics,
+{\em Los Alamos National Laboratory,} \\
+Los Alamos, NM ({June, 1994--September, 1996}). 
+\end{list}
+
+\vspace{2.75pt}
+\shead{Research Interests}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.5in}%
+\setlength{\leftmargin}{0.7in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-7.75pt}
+\item
+{\em Planet formation:}
+beginning-to-end simulation of planetary systems,
+including observable planetary debris disks, formation of terrestrial
+planets, and the origin of the Solar System. 
+\item
+{\em Astrophysical black holes:}
+relativistic accretion flows and
+binary black hole mergers.
+% and gravity waves.
+\item
+{\em Galactic dynamics:} 
+hypervelocity stars and the mass distribution of the Galaxy;
+galaxy pairs.
+\item
+{\em Astrophysical cosmology:}
+large-scale structure and galaxy clustering.
+% statistics of the cosmic microwave background.
+\item
+{\em Parallel computation:} parallel algorithm design with message passing
+).
+% in 
+% {\tt C} for IBM SP-2, Cray T3D, Intel Paragon \& Delta.
+\end{list}
+
+\newpage
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+
+\vspace{-5.5pt}
+\shead{Honors and Fellowships}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.5in}%
+\setlength{\leftmargin}{1.4in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-11pt}
+\item \mbox{} \ \ \ \ \ \ \ 
+University Professor, {\em University of Utah}, 2005--2006.
+\item \mbox{} \ \ \ \ \ \ \ 
+{\em NASA} GSRP Fellowship, {\em NASA} Headquarters,
+{1991--1993}.
+%\item \mbox{} \ \ \ \ \ \ \ 
+%{\em NASA} Space Science Grant Award, {\em Dartmouth College}, 1994.
+\end{list}
+
+\vspace{-13.75pt}
+
+\shead{Recent Funding Awards}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.5in}%
+\setlength{\leftmargin}{1.2in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-11pt}
+\item
+  {\em NASA} XRP 2 grant (S.~Kenyon, J.~Najita \& B.~Bromley), 2024--2027.
+  % The Protoplanetary Disk--Debris Disk Connection
+  % \$334,362
+ \item
+  {\em NASA} Emerging Worlds grant (S.~Kenyon \& B.~Bromley), 2023--2026.
+  %
+  % Pluto's Small Satellite System: Formation and Dynamics \\
+  % Sponsor/Grant: NASA/80NSSC23K0252 \\
+  %Period of Performance: 01-16-2023 to 01-15-2026 \\
+  % Budget: \$122,724
+\item
+  {\em NASA} Emerging Worlds grant (S.~Kenyon \& B.~Bromley), 2017--2022.
+  % The Formation of Pluto's Low Mass Satellites 240k
+\item
+  {\em NASA} Advanced Innovative Concepts II grant (C.~Mann et al.), 2017--2020.
+  %     500k 
+\item
+  {\em NASA} Outer Planets grant (S.~Kenyon \& B.~Bromley), 2011--2016.
+  % The Formation of the Outer Solar System 212k
+\item
+ {\em NASA} Origins of Solar Systems grant (S.~Kenyon \& B.~Bromley), 2010--2013.
+  % Formation of Gas Giant Planets 193,161
+%\item
+%  {\em NASA} Terrestrial Planet Finder grant (S.~Kenyon \& B.~Bromley), 2006--2009.
+%  % Numerical Calculations of Planet Formation 185,750 
+%\item
+%  {\em NASA} Astrophysical Theory Program grant (R.~Price et al.), 2005--2008.
+%  % Binary black hole coalescence  627k/3yr
+%\item
+%  {\em NASA} Astrophysical Theory Program grant (S.~Kenyon \& B.~Bromley), 2003--2006.
+%  % Studies of Planet Formation Using a Hybrid N-body + Planetesimal Code 184k
+%\item
+%  {\em NASA} Astrophysical Theory Program grant (B.~Bromley), 1999--2002.
+%  % Accretion flows onto supermassive black holes 115k 
+\end{list}
+
+\vspace{-11pt}
+
+\shead{Teaching and Mentoring}
+
+\vspace{5.5pt}
+\centerline{\em Recent courses at University of Utah}
+%\vspace{-2.75pt}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.7in}%
+\setlength{\leftmargin}{1.2in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+
+\item
+Introduction to Astronomy Research (ASTR 6410; 2026)
+\item
+The Universe (ASTR/PHYS 1060; 2024, 2025)
+\item
+The Solar System (ASTR/PHYS 1050; 2024)
+\item
+Physics 4 Computer Lab (PHYS 3010; 2023); 
+\item
+Introduction to Computers in Physics (PHYS 3730/6720; 
+%Fall 1998--2000, 2006, 2013, 2014).
+1998--2014, 2019--2021). 
+\item 
+Computational and Statistical Methods in Physics and Astronomy (ASTR/PHYS 7730; 2019)
+\item 
+Foundations of Astronomy (ASTR/PHYS 2500; 2013--2015)
+\item
+Physics for Scientists \& Engineers II
+(PHYS 2220, E\&M; 2001--2004, 2010--2013).
+%\item
+% Einstein in the 20$^{\rm th}$ Century \& Beyond 
+% (PHYS 1905; 2005, 2006) 
+% \item
+% Case Studies in Computational Engineering and Science (MATH 6790; 2001). 
+% \item
+% Computational Physics I (PHYS 6730; Spring 1999--2001).
+\end{list}
+
+%\vspace{2.75pt}
+\centerline{\em Students/postdocs supervised}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.5in}%
+\setlength{\leftmargin}{1.0in}%
+\setlength{\textwidth}{6.0in}
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+\item
+Served as research mentor to 18 undergraduates (two honors theses), 6
+Master's students, and 7 doctoral students; Supervised 1 post-doc
+(with R.\ Price).
+%Post-doctoral: Walter Landry (with R.~Price; 2000--2001).
+%\item
+%Ph.D.: Jun Hidaka (2003), Akiko Soemori, Rhett Zollinger (2014), Napoleon-formally (2009)
+% Austin King, Tamara (formally 2023), Ashley Meglino
+%\item
+%M.S.: 
+%Eric Bulson (2001), Rachel Costello (2003), Jinyong Yoon (2005),
+% Chris Tellesbo (2018), Nick Pershyn (2018)
+% Tamara Young (2008). 
+%\item
+%Undergrad (recent):
+% Samantha Ball (2023), Beth Penderghast (2023), Aubrey Jones
+% Prestin Harris (2021-2023), Sameer Khan (2022), Marc Whiting (2022)
+% Josh Hill (2022), Marcus Tanner (2022-2023)
+%Ben Bittner (2019-2020), Teddy Anderson (2018), 
+% Lia Papadopoulos (2014), Bradley Monk (2014),
+%Thomas Stucky (2014), David DeDanne (2014), Ben Czaja (2011--2012),
+%Sarah Tyler (2012)
+%Cameron Soelberg (with R.~Price; 2000), airforce pilot...
+%Undergraduate research advisor for 7 students since 2012 
+%(UROP and ACCESS);
+%Honors thesis advisor (2014).
+
+\end{list}
+
+\vspace{-11pt}
+\shead{Selected Academic Service}
+
+\vspace{5.5pt}
+\centerline{\em Department of Physics and Astronomy}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{0in}%
+\setlength{\leftmargin}{0.5in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+\item
+Chair (2016--2018); 
+Associate Chair (2015--2016, 2019--2023); 
+Astronomy Program Task Force  (2010--2016, 2018--2024);
+%Space/Facilities (Chair, 2012--2016);
+%\item
+Director of Graduate Studies (2010--2012); % (2003--2006; 2010--2012);
+% \item
+%Policy Board (2010--2012);
+%\item
+% Graduate Advising (Chair, 2010--present);
+%\item
+%Astronomy Search (Chair, 2010--2011).
+%\item
+%Astronomy Program Task Force  (2010--present);
+%\item
+%Policy Board/Executive Committee (2004--2006). 
+%\item 
+%Graduate Admissions Committee (2004--2006).
+%\item
+%Futures Committee (2004--2005). 
+%\item
+%Curriculum Commiittee (2005 -- 2006).
+\end{list}
+
+
+%\vspace{-16.5pt}
+\vspace{-2.75pt}
+\centerline{\em University}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.7in}%
+\setlength{\leftmargin}{1.2in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+\item
+  College of Science Council (2024, 2025)
+%College of Science's {\em Science for Breakfast} lecture (to the SLC
+%business community; 2015).
+% Revenge of Pluto and other stories from the outer solar system
+% \item
+%  Department G&G internal review
+\item
+University Graduate Council, Graduate Admissions Committee (2011--2014).
+%\item
+%M.S.~Computational Engineering \& Sciences Executive Committee (2001--2014). 
+
+%\item
+%School of Computing Internal Review Committee (2003).
+%\item
+%College of Science Admissions Standards and Degree Committee
+%(1999--2003). 
+%\item
+%Undergraduate Studies Course Review Committee for Social \& 
+%Behavioral Sciences (2000 -- 2002).
+\end{list}
+
+%\newpage
+%\shead{Selected Academic Service}
+
+%\vspace{-16.5pt}
+%\sheadalt{Research community}
+%\vspace{-11pt}
+
+\vspace{-2.75pt}
+\centerline{\em Research community}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.3in}%
+\setlength{\leftmargin}{0.8in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+\item
+  %
+Reviewer/panelist: NASA (2007--2015, 2018, 2019);
+DFG (2011--2017, 2019, 2020);
+RGC (2022); % hong kong
+FGF (2015);
+NSF Astronomy Division (2010, 2014, 2021);
+CSCS (supercomputing, 2014);
+DOE (supercomputing, 2011);
+% Austrian research foundation 2015
+%NASA (2007, 2008, 2010); 
+%\item
+% \item
+% DOE High Energy Physics (2011);
+%\item Review panelist, 
+% NSF Planet Formation and circumstellar disks (2010);
+%\item
+%\item Reveiw panelist, 
+%\item
+%NASA, rigin of the Solar System (SLC~UT, 2007);
+%\item
+Canadian Space Agency Mission Concepts (2007). 
+%\item
+%Review panelist, NSF Astronomy Division (2007).
+\item
+Ad hoc reviewer: {\ti Astron.\ J.}, {\ti Astrophys.\ J.}, {\ti Icarus},
+{\ti Parallel \& Distributed Computing}, \\ 
+{\ti Mon.\ Not.\ Royal Astron.\ Soc.},
+{\ti Nature}, {\ti New Astron.}, {\ti Phys.~Rev.~Letters}, {\ti Science},
+{\ti Space Sciences Review}.
+%
+% Review panelist NASA Astrophysical Theory Program (chair, 2002), 
+% Origins of the Solar System (2004--2006).
+% JPDC
+\end{list}
+
+%\vspace{-16.5pt}
+%\sheadalt{Public outreach}
+%\vspace{-5.5pt}
+
+\vspace{-2.75pt}
+\centerline{\em Outreach}
+
+\begin{list}{\mbox{}}{%
+\setlength{\partopsep}{0.0in}%
+\setlength{\itemindent}{-0.3in}%
+\setlength{\leftmargin}{0.8in}%
+\setlength{\parsep}{-2.75pt}
+}
+\vspace{-16.5pt}
+%\item
+%Science fair judge/coordinator, Salt Lake County (2000 -- present).
+%\item
+%Invited talks to the Salt Lake Astronomical Society (misc.\ dates since 2000).
+\item
+Presentations to grade schools in
+Salt Lake valley (misc.\ dates since 1998).
+%\item
+%Utah Education Network Sci-Fi podcast (Dec. 2006).
+%\item
+%Recent interviews: KCPW/KPCW (public radio), KDXU-AM, KSL-TV, KUER-FM, NBC-Australia.
+\item
+  In the Media, including Astronomy magazine, BBC, CNN, Der Spiegel,
+  Christian Science Monitor, FoxNews, MSNBC, New York Times,
+  Science News, Scientific American, Washington Post;
+Public Radio (Australia, Germany, U.S.).
+%TV: CBS, NBC and Fox affiliates.
+
+\end{list}
+
+\newpage
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+\vspace{-5.5pt}
+\shead{Publications}
+\vspace{-11pt}
+\centerline{\em Refereed articles}
+\bibsty
+
+\vspace{5.5pt}
+
+\refitem Jones, Aubrey~L., \& Bromley, B.~C., 2026, ``Supermassive black hole growth from stellar binary encounters,''
+{\em Open Journal of Astrophysics}, 9, doi.org/10.33232/001c.157589.
+
+\refitem Ball, S.~E., Bromley, B.~C., \& Kenyon, S.~J. 2025,
+``Symbiotic star candidates in Gaia Data Release 3,''
+{\em Open Journal of Astrophysics}, 8, doi.org/10.33232/001c.143522.
+
+\refitem Bromley, B.~C., \& Geller, M.~J. 2025, 
+``Cosmology with voids,''
+{\em Journal of Cosmology and Astroparticle Physics}, 5, 011.
+
+\refitem King, A.~J., \& Bromley, B.~C. 2025, ``Light echoes of
+time-resolved flares and application to Kepler data,'' {\em Open Journal of Astrophysics}, 8, 108.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2025,
+``A Pluto-Charon Sonata. V. Long-term Stability of the HST State Vector,''
+{\em Planetary Science Journal}, 6, 68.
+
+\refitem King, A.~J., \& Bromley, B.~C. 2024, ``Light echoes of protoplanetary disks,'' {\em Astrophysical Journal}, 976, 103.
+
+\refitem Bromley, B.~C., Sandick, P.~E., \& Shams Es Haghi, B.  2024, ``Supermassive black hole binaries in ultralight dark matter,'' {\em Phys.~Rev.~D} 110, 023517.
+
+
+\refitem King, A.~J., Bromley, B.~C., Harris, P., \& Kenyon, S.~J. 2024, ``Polarization of circumstellar debris disk light echoes,'' {\em Astronomical Journal}, 167, 143.
+
+\refitem Veras, D., Ida, S., Greshin, E., Kenyon, S.~J., \& Bromley, B.~C. 2023, ``Planetesimals drifting through dusty and gaseous white dwarf debris discs: Types I, II and III-like migration,'' Mon.\ Not.\ Royal Astron.\ Soc. 524, 1.
+
+\refitem Whiting, M.~L., Hill, J.~B., Bromley, B.~C., \& Kenyon, S.~J. 2023, ``A catalog of nearby accelerating star candidates in Gaia DR3,'' {\em Astronomical Journal}, 165, 193.
+
+\refitem Bromley, B.~C., Khan, S.~H., \& Kenyon, S.~J. 2023, ``Dust as a solar shield,'' {\em PLOS Climate}, 2(2), e0000133. %https://doi.org/10.1371/journal.pclm.0000133
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2022, ``Magnetic interactions in orbital dynamics,''
+{\em Astronomical Journal}, 164, 229.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2022,
+``A Pluto-Charon Sonata IV. Improved Constraints on the Dynamical Behavior and Masses of the Small Satellites,''
+{\em Astronomical Journal}, 163, 238.
+
+\refitem Najita, J.~R., Kenyon, S.~J., \& Bromley, B.~C. 2022,
+``From Pebbles and Planetesimals to Planets and Dust: the Protoplanetary Disk--Debris Disk Connection,''
+{\em Astrophysical Journal}, 925, 45.
+
+\refitem Bromley, B.~C., Leonard, A., Quintanilla, A., King, A.~J., Mann, C., \& 
+Kenyon, S.~J. \& 
+2021,
+``Seeking echoes of circumstellar disks in Kepler light curves,''
+{\em Astronomical Journal} 162, 98.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2021,
+``A Pluto-Charon Concerto. II. Formation of a Circumbinary Disk of Debris after the Giant Impact,''
+{\em Astronomical Journal}, 161, 211.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2021, ``On the Estimation of
+Circumbinary Orbital Properties,''
+{\em Astronomical Journal}, 161, 25.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2020, ``Craters on Charon:
+Impactors From a Collisional Cascade Among Trans-Neptunian Objects,''
+{\em Planetary Science}, 1, 40.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2020, ``A Pluto-Charon
+Concerto: An Impact on Charon as the Origin of the Small Satellites,''
+{\em Astronomical Journal}, 160, 85.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2019, ``A Pluto-Charon Sonata III:
+Growth of Charon from a Circum-Pluto Ring of Debris,''
+{\em Astronomical Journal}, 158, 142.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2019, ``A Pluto-Charon Sonata: Dynamical Limits on the Masses of the Small Satellites,''
+{\em Astronomical Journal}, 158, 69.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2019, ``Ohmic heating of
+asteroids around magnetic stars,'' {\em Astrophysical Journal}, 876,
+17.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2019, ``A Pluto-Charon Sonata: The Dynamical Architecture of the Circumbinary Satellite System,''
+{\em Astronomical Journal}, 157, 79.
+
+\newpage
+\defsty
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+%\vspace{-5.5pt}
+\vspace{-11pt}
+\shead{Publications}
+\centerline{\em Refereed articles (cont.)}
+\vspace{-5.5pt}
+\bibsty
+
+\refitem Bromley, B.~C., Kenyon, S.~J., Brown, W.~R., \& Geller, M.~J. 2018, 
+``Nearby high-speed stars in Gaia DR2,''
+{\em Astrophysical Journal}, 868, 25.
+
+\refitem Mann, C., Tellesbo, C.~A., Bromley, B.~C., \& Kenyon, S.~J. 2018, ``A framework for planet detection with faint lightcurve echoes,''
+{\em Astronomical Journal}, 156, 200.
+
+\refitem Kenyon, S.~J., Bromley, B.~C., Brown, W.~R., \& Geller, M.~J. 2018, ``Impact of the Galactic Disk and Large Magellanic Cloud on the Trajectories of Hypervelocity Stars Ejected from the Galactic Center,''
+{\em Astrophysical Journal}, 864, 130.
+
+\refitem Meisner, A.~M., Bromley, B.~C., Kenyon, S.~J., Anderson, T.~E. 2018, ``A 3$\pi$
+search for Planet Nine at 3.4~$\mu$m with WISE and NEOWISE,''
+{\em Astronomical Journal}, 155, 166.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2017, ``Numerical Simulations of Gaseous Disks Generated from Collisional Cascades at the Roche Limits of White Dwarf Stars,''
+{\em Astrophysical Journal}, 850, 50.
+
+
+\refitem Dall'As\`{e}n, Y.~G., Dimas, S.~I., Tyler, S.~J., Johnston, J.~F., 
+Anderton, T.~R., Ivans, I.~I., Gerton, J.~M., Bromley, B.~C., Kenyon, S.~J.
+2017, ``Mapping the composition of chondritic meteorite Northwest Africa 3118 with micro-Raman spectroscopy,'' {\em Spectroscopy Letters}, 50, 417.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2017, ``Numerical Simulations of Collisional Cascades at the Roche Limits of White Dwarf Stars,''
+{\em Astrophysical Journal}, 844, 116.
+
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2017, ``Terrestrial Planet
+Formation: Dynamical Shake-up and the Low Mass of Mars,'' {\em
+  Astronomical Journal}, 153, 216.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2017, ``Variations on Debris
+Disks. IV. An Improved Analytical Model for Collisional Cascades,''
+{\em Astrophysical Journal}, 839, 38.
+
+
+\refitem Meisner, A.~M., Bromley, B.~C., Nugent, P.~E., Schegel,
+D.~J., Kenyon, S.~J., Schlafly, E.~F., Dawson, K.~S. 2017, ``Searching
+for Planet Nine with Coadded WISE and NEOWISE-Reactivation Images,''
+{\em Astronomical Journal}, 153, 65.
+
+\refitem Kenyon, S.~J., Najita, J.~R., \& Bromley, B.~C. 2016, ``Rocky Planet 
+Formation: Quick and Neat,''
+{\em Astrophysical Journal}, 831, 8.
+
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2016, ``Making Planet Nine:
+A Scattered Giant in the Outer Solar System,'' {\em Astrophysical
+  Journal}, 826, 46.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2016, ``Making Planet Nine:
+Pebble Accretion at 250--750 AU in a Gravitationally Unstable Ring,''
+{\em Astrophysical Journal}, 825, 33.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2016, ``Variations on Debris
+Disks III. Collisional Cascades and Giant Impacts in the Terrestrial
+Zones of Solar-type Stars,'' {\em Astrophysical Journal}, 817, 51.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2015, ``Collisional Cascade
+Calculations for Irregular Satellite Swarms in Fomalhaut b,'' {\em
+  Astrophysical Journal}, 811, 60.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2015, ``Evolution of a Ring Around 
+the Pluto-Charon Binary,'' {\em Astrophysical Journal}, 809, 88.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2015, ``Planet Formation
+Around Binary Stars: Tatooine made easy,'' {\em Astrophysical
+  Journal}, 806, 98.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2015, ``Formation of
+Super-Earth Mass Planets at 125-250 AU from a Solar-type Star,'' 
+{\em Astrophysical Journal}, 806, 42.
+
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2014, ``The Fate of
+Scattered Planets,'' {\em Astrophysical Journal}, 796, 141.
+
+\refitem Czaja, B., \& Bromley, B.~C. 2014, ``Distortion of the cosmic
+microwave background by the Milky Way,'' {\em Physical\ Review\ D},
+90, 047302.
+
+\refitem Kenyon, S. J., Bromley, B. C., Geller, M. J., \& Brown,
+W. R. 2014, ``Predicted space motions for hypervelocity and runaway
+stars: proper motions and radial velocities for the GAIA era,''
+{\em Astrophysical Journal}, 793, 122.
+
+\refitem Kenyon, S.~J., Currie, T., \& Bromley, B.~C. 2014,
+``Fomalhaut b as a cloud of dust: Testing aspects of planet formation
+theory,'' {\em Astrophysical Journal}, 786, 70.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2014, ``Coagulation
+Calculations of Icy Planet Formation Around 0.1--0.5~M$_\odot$ Stars:
+Super-Earths From Large Planetestimals,'' {\em Astrophysical Journal},
+780, 4.
+
+\newpage
+\defsty
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+%\vspace{-5.5pt}
+\vspace{-11pt}
+\shead{Publications}
+\centerline{\em Refereed articles (cont.)}
+\vspace{-5.5pt}
+\bibsty
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2014, ``The formation of
+Pluto's low mass satellites,'' {\em Astronomical Journal}, 147, 8.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2013, ``Migration of small
+moons in Saturn's rings,'' {\em Astrophysical Journal}, 764, 192.
+
+\refitem Currie, T., Burrows, A., Madhusudhan, N., et al.\ 2013, ``A
+Combined Very Large Telescope and Gemini Study of the Atmosphere of
+the Directly Imaged Planet, $\beta$ Pictoris b,'' {\em
+  Astrophys. Journal}, 776, 15
+
+\refitem Bromley, B.~C., Kenyon, S.~J., Geller, M.~J., \& Brown, W.~R.
+2012, ``Binary Disruption by Massive Black Holes: Hypervelocity Stars,
+S Stars, and Tidal Disruption Events,''
+%{\em Astrophysical Journal Letters}
+{\em Astrophys.~J.~Letters},
+749, L42.
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2012, ``Coagulation
+Calculations of Icy Planet Formation at 15--150 AU: A Correlation
+between the Maximum Radius and the Slope of the Size Distribution for
+Transneptunian Objects,'' {\em Astronomical Journal}, 143, 63.
+
+\refitem Bromley, B.~C. 2011, ``Gravitationally focused dark matter
+around compact stars,'' {\em Astrophysical Journal Suppl.}, 197, 37.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2011, ``Migration of planets
+embedded in a circumstellar disk,'' {\em Astrophysical Journal}, 735,
+29.
+
+\refitem Bromley, B.~C., \& Kenyon, S.~J. 2011, ``A New Hybrid
+N-Body-Coagulation Code for the Formation of Gas Giant Planets,'' {\em
+  Astrophysical Journal}, 731, 101.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2010, ``Variations on Debris
+Disks II. Icy Planet Formation as a Function of the Bulk Properties
+and Initial Sizes of Planetesimals,'' {\em Astrophysical Journal
+  Suppl.}, 188, 242.
+
+
+\refitem Bromley, B.~C., Kenyon, S.~J., Brown, W.~R., \& Geller,
+M.~J. 2009, ``Runaway Stars, Hypervelocity Stars, and Radial Velocity
+Surveys,'' {\em Astrophysical Journal}, 706, 925.
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2009, ``Rapid Formation of
+Icy Super-Earths and the Cores of Gas Giant Planets,'' {\em
+  Astrophysical Journal Letters}, 690, 140.
+
+
+
+\refitem Brown, W.~R., Geller, M.~J., Kenyon, S.~J., \& Bromley,
+B.~C., 2009, ``The Anisotropic Spatial Distribution of Hypervelocity
+Stars,'' {\em Astrophysical Journal Letters}, 690, 69.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2008, ``Variations on Debris
+Disks: Icy Planet Formation at 30--150~AU around 1--3 Solar Mass Main
+Sequence Stars,'' {\em Astrophysical Journal Supplement Series}, 179,
+451.
+
+\refitem Kenyon, S.~J., Bromley, B.~C., Geller, M.~J., \& Brown, W.~R.
+2008, ``Hypervelocity Stars: From the Galactic Center to the Halo,''
+{\em Astrophysical Journal}, 680, 312.
+
+
+\refitem Kenyon, S.~J., Bromley, B.~C., O'Brien, D.~P., \& Davis,
+D.~R. 2008, ``Formation and Collisional Evolution of Kuiper Belt
+Objects,'' in {\em The Solar System Beyond Neptune}, Barucci et
+al.\ eds. (Tucson: University of Arizona Press), 293.
+
+
+\refitem Currie,~T., Kenyon, S.~J., Rieke,~G., Balog,~Z., Bragg,~A.,
+\& Bromley, B.~C., 2008, ``The Rise and Fall of Debris Disks: MIPS
+Observations of h and chi Persei and the Evolution of Mid-IR Emission
+from Planet Formation,'' {\em Astrophysical Journal}, 672, 558.
+
+\refitem Brown, W.~R., Geller, M.~J., Kenyon, S.~J., Kurtz, M.~J., \&
+Bromley, B.~C. 2007, ``Hypervelocity Stars III: The Space Density and
+Ejection History of Main Sequence Stars from the Galactic Center,''
+{\em Astrophysical Journal}, 671, 1708.
+
+\refitem Beetle,~C., Bromley,~B., Hern{\'a}ndez,~N., \& Price,
+R.~H.\ 2007, ``Periodic standing-wave approximation: Post-Minkowski
+computations'' {\em Physical Review D}, 76, 084016.
+
+\refitem Currie, T., Kenyon, S.~J., Rieke, G., Balog, Z., \& Bromley,
+B.~C., 2007, ``Terrestrial Zone Debris Disk Candidates in h \& chi
+Persei,'' {\em Astrophysical Journal Letters}, 663, 105.
+
+\refitem Kennedy, G.~M., Kenyon, S.~J., \& Bromley, B.~C.\ 2007,
+``Planet formation around M-dwarfs: the moving snow line and
+super-Earths,'' {\em Astrophysics and Space Science}, 311, 9.
+
+\refitem Brown, W.~R., Geller, M.~J., Kenyon, S.~J., Kurtz, M.~J., \&
+Bromley, B.~C.\ 2007, ``Hypervelocity Stars II: The Bound
+Population,'' {\em Astrophysical Journal}, 660, 331.
+
+\refitem Nagasawa, M., Thommes, E.~W., Kenyon, S.~J., Bromley, B.~C., \& Lin,
+D.~N.~C. 2007, ``The Diverse Origins of Terrestrial Planet Systems,''
+in {\em Protostars and Planets V},
+V, B. Reipurth, D. Jewitt, and K. Keil, eds.
+(Tucson: University of Arizona), 639.
+% Press).
+
+
+\newpage
+\defsty
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+%\vspace{-5.5pt}
+\vspace{-11pt}
+\shead{Publications}
+\centerline{\em Refereed articles (cont.)}
+\vspace{-5.5pt}
+\bibsty
+
+\refitem Bromley, B.~C., Kenyon, S.~J., Geller, M.~J., Barcikowski,
+E., Brown, W.~R., \& Kurtz, M.~J.\ 2006, ``Hypervelocity Stars:
+Predicting the Spectrum of Ejection Velocities,'' {\em Astrophysical
+  Journal}, 653, 1194.
+
+\refitem Kennedy, G.~M., Kenyon, S.~J., \& Bromley, B.~C.\ 2006,
+``Planet formation around low mass stars: the moving snow line and
+super-Earths,'' {\em Astrophysical Journal Letters}, 650, 139.
+
+\refitem Yoshida, S., Bromley, B.~C., Read, J. S., Uryu, K., Friedman,
+J. L.  2006, ``Models of Helically Symmetric Binary Systems,'' in {\em
+  Classical and Quantum Gravity}, 23, 599.
+
+\refitem Beetle, C., Bromley, B.~C., Price, R.~H. 2006,
+``Eigenspectral computations for linear gravity and nonlinear toy
+models,'' {\em Physical Review D}, 74, 024013.
+
+\refitem Bromley, B.~C.  \& Kenyon, S.~J., 2006, ``A Hybrid
+$N$-body--Coagulation Code for Planet Formation'' {\em Astronomical
+  Journal}, 131, 2737.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2006, ``Terrestrial Planet
+Formation I. The Transition from Oligarchic to Chaotic Growth,'' {\em
+  Astronomical Journal}, 131, 1837.
+
+
+\refitem Bromley, B.~C., Owen, R., \& Price, R.~H. 2005, ``Periodic
+standing-wave approximation: Nonlinear scalar fields, adapted
+coordinates, and the eigenspectral method,'' {\em Physical Review D}
+71, 105017.
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2005, ``Prospects for
+Detection of Catastrophic Collisions in Debris Disks,'' {\em
+  Astronomical Journal} 130, 269.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2004, ``Stellar encounters
+as the origin of distant Solar System objects in highly eccentric
+orbits,'' {\em Nature}, 432, 598.
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2004, ``The Size
+Distribution of Kuiper Belt Objects,'' {\em Astronomical Journal},
+128, 1916.
+
+\refitem Andrade, Z., Beetle, C., Blinov, A., Bromley, B.~C., Burko,
+L.~M., Cranor, M., Owen, R., \& Price, R.~H. 2004, ``The Periodic
+Standing-Wave Approximation: Overview and Three Dimensional Scalar
+Models,'' {\em Physical Review D}, 70, 064001.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2004, ``Detecting the Dusty
+Debris of Terrestrial Planet Formation,'' {\em Astrophysical Journal
+  Letters}, 602, 133.
+
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2004, ``Collisional Cascades
+in Planetesimal Disks II. Embedded Planets,'' {\em Astronomical
+  Journal}, 127, 513.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2002, ``Dusty Rings:
+Signposts of Recent Planet Formation,'' {\em Astrophysical Journal
+  Letters}, 577, 35.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2002, ``Collisional Cascades
+in Planetesimal Disks I. Stellar Flybys,'' {\em Astronomical Journal},
+123, 1757.
+
+
+\refitem Bromley, B.~C., Melia, F., \& Liu, S. 2001, ``Polarimetric
+Imaging of the Massive Black Hole in the Galactic Center,'' {\em
+  Astrophysical Journal Letters}, 555, 83.
+
+\refitem Melia, F., Bromley, B.~C., Liu, S., \& Walker, C. K. 2001,
+``Measuring the Black Hole Spin in Sgr A*,'' {\em Astrophysical
+  Journal Letters}, 554, 37.
+
+\refitem Pariev, V. I., Bromley, B.~C., \& Miller, W. A.  2001, ``On
+the Estimation of Relativistic Accretion Disk Parameters from Iron
+Emission Lines,'' {\em Astrophysical Journal}, 547, 649.
+
+
+\refitem Barton, E. J., Geller, M. J., Bromley, B.~C., van Zee, L., \&
+Kenyon, S.~J.  2001, ``The Tully-Fisher Relation as a Measure of
+Luminosity Evolution: A Low Redshift Baseline for Evolving Galaxies,''
+{\em Astronomical Journal}, 121, 625.
+
+\refitem Kenyon, S.~J., \& Bromley, B.~C. 2001, ``Gravitational
+Stirring in Planetary Debris Disks,'' {\em Astronomical Journal}, 121,
+538--551.
+
+\refitem Tegmark, M., \& Bromley, B.~C. 2000, ``Bias is Complicated,''
+         {\em Physica Scripta}, T85, 59.
+
+\refitem Bromley, B.~C., \& Tegmark, M. 1999, ``Is the Cosmic
+Microwave Background really non-Gaussian?'' {\em Astrophysical Journal
+  Letters}, 542, 79.
+
+
+\refitem Tegmark, M., \& Bromley, B.~C. 1999, ``Observational Evidence
+for Stochastic Biasing,'' {\em Astrophysical Journal Letters}, 518,
+69.
+
+%\newpage
+%\mbox{} \hfill {\it B.\ C.\ Bromley}
+
+\newpage
+\defsty
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+%\vspace{-5.5pt}
+\vspace{-11pt}
+\shead{Publications}
+\centerline{\em Refereed articles (cont.)}
+\vspace{-5.5pt}
+\bibsty
+
+\refitem Barton, E. J., Bromley, B.~C., \& Geller, M. J. 1999,
+``Kinematic Effects of Tidal Interaction on Galaxy Rotation Curves,''
+         {\em Astrophysical Journal Letters}, 511, 25.
+
+\refitem Pariev, V. I., \& Bromley, B.~C. 1998, ``Line emission from
+an Accretion Disk around a Black Hole: Effects of Disk Structure,''
+{\em Astrophysical Journal}, 508, 590.
+
+\refitem Bromley, B.~C., Press, W. H., Lin, H., \& Kirshner, R. P.
+1998, ``Spectral Classification and Luminosity Function of Galaxies in
+the Las Campanas Redshift Survey,'' {\em Astrophysical Journal}, 505,
+25.
+
+\refitem Bromley, B.~C., Miller, W. A., \& Pariev, V. I. 1998, ``The
+inner radius of the accretion disk around a supermassive black hole,''
+{\em Nature}, 391, 54.
+
+\refitem Bromley, B.~C., Warren, M. S., \& Zurek, W. H. 1997,
+``Estimating $\Omega$ from Galaxy Redshifts: Linear Flow Distortions
+and Nonlinear Clustering,'' {\em Astrophysical Journal}, 475, 414.
+
+\refitem Bromley, B.~C., Chen, K., \& Miller, W. A. 1997, ``Line
+Emission from an Accretion Disk Around a Rotating Black Hole: Toward a
+Measurement of Frame Dragging,'' {\em Astrophysical Journal} 475, 57.
+
+\refitem Bromley, B.\ C. 1996, ``Quasirandom Number Generators for
+Parallel Monte Carlo Algorithms,'' {\em Journal of Parallel and
+  Distributed Computing}, 38, 101.
+
+\refitem Brainerd, T.\ G., Bromley, B.\ C., Warren, M.\ S., \& Zurek,
+W.\ H. 1996, ``Velocity Dispersion and the Redshift Space Power
+Spectrum,'' {\em Astrophysical Journal Letters}, 464, 103.
+
+
+\refitem Bromley, B.\ C. 1996, ``Finite-Size Gravitational
+Microlenses,'' {\em Astrophysical Journal}, 476, 537.
+
+
+\refitem Tegmark, M. \& Bromley, B.\ C. 1995, ``Real-Space Cosmic
+Fields from Redshift-Space Distributions: A Green Function Approach,''
+{\em Astrophysical Journal}, 453, 533.
+
+\refitem Bromley, B.\ C. 1994, ``Sampling Functions for Measuring the
+Cosmic Mass Density,'' {\em Astrophysical Journal Letters}, 423, 81.
+
+\refitem Bromley, B.\ C. 1994, ``Correlations in Cosmic Density
+Fields,'' {\em Astrophysical Journal}, 437, 541.
+
+\refitem Bromley, B.\ C. 1992, ``Detecting Faint Echoes in
+Stellar-Flare Light Curves,'' {\em Publication of the Astronomical
+  Society of the Pacific}, 104, 1057.
+
+\vspace{11pt}
+\centerline{\em Selected conference proceedings}
+\vspace{11pt}
+
+
+Fernando, S.~I., \textit{et al.}. 2024, ``Chernoff information for creating maximally distinctive engineered point spread functions for multi-color single molecule imaging,'' in {\em Proceedings of the SPIE}, 12848, id. 1284802.
+
+Kenyon, S. J., \& Bromley, B.~C. 2005, ``Formation of planets and
+debris disks in the terrestrial zone'' in {\em Star Formation in the 
+Era of Three Great Observatories}, Cambridge, MA \\ 
+{\tt cxc.harvard.edu/stars05/agenda/program.html}, p.~20.
+
+Vassiliev, V.~V., \textit{et al.}, 2003, ``Search for TeV Annihilation Radiation from Supersymmetric Dark Matter in nearby Galaxies'',
+in {\em International Cosmic Ray Conference}, 5, p.~2679.
+
+Bromley, B.~C., \& Kenyon, S. J. 2004, ``Numerical calculations of
+terrestrial planet formation,'' in {\em The Second TPF/Darwin International
+Conference}, San Diego, CA \\
+({\tt http://planetquest1.jpl.nasa.gov/TPFDarwinConf/confProceedings.cfm}).
+
+Kenyon, S. J., \& Bromley, B.~C. 2002, ``Evolution of planetesimals in
+planetary debris disks,'' in {\em Astrophysical Supercomputing using
+Particle Simulations: Proceedings of IAU Symposium 208 in Tokyo},
+eds.\ J.~Makino \& P.~Hut (San Francisco: A.\ S.\ P.).
+
+Pariev, V. I., Bromley, B.~C., \& Miller, W. A., 2001, ``Estimation of
+Relativistic Accretion Disk Parameters from Iron Line Emission,'' in
+{\em 20th Texas Symposium on relativistic astrophysics, Austin, Texas,
+10-15 December 2000}, eds.\ J.~C.\ Wheeler \& H.~Martel (New York: AIP).
+
+%Warren, M. S., Bromley, B.~C., Laflamme, R., Zurek, W. H., \& Salmon, J. 
+%2001, ``Determining the Mass of the Universe,''
+%DOE Technical Report, DE2001-768174; LA-UR-00-3978 
+
+Rybicki, G. B., \& Bromley, B.~C. 1998, ``Spectral signatures of a
+relativistic accretion disk,'' in {\em Accretion Processes in Astrophysical
+Systems: Proceedings of the 8th Annual Astrophysics Conference in
+Maryland}, eds.\ S.\ Holt \& T.\ Kallman (New York: AIP).
+
+%Barton, E. J., Bromley, B.~C., \& Geller, M. J. 1998,
+%``Kinematic Effects of Tidal Interaction on Galaxy Rotation Curves,'' in
+%{\em Galaxy Dynamics, proceedings of a conference held at Rutgers
+%University, 8-12 Aug 1998.} eds.\ D.~Merritt, M.~Valluri, \& J.~Sellwood
+%(San Francisco:  A.\ S.\ P.\ Conf. Ser.).
+
+%commentout
+
+\newpage
+\mbox{} \hfill {\it B.\ C.\ Bromley}
+\centerline{\em Selected conference proceedings (cont.)}
+\vspace{-5.5pt}
+\bibsty
+
+Bromley, B.~C., Miller, W. A., \& Pariev, V. I. 1998, ``Bounds on the
+inner radius of emission around supermassive black holes,'' in {\em
+Accretion Processes in Astrophysical Systems: Proceedings of the 8th
+Annual Astrophysics Conference in Maryland}, eds.\ S.\ Holt \& T.\
+Kallman (New York: AIP).
+
+Pariev, V. I., \& Bromley, B.~C. 1998, ``Line emission from an
+accretion disk around a black hole: effects of disk structure,'' in
+{\em Accretion Processes in Astrophysical Systems: Proceedings of the 8th
+Annual Astrophysics Conference in Maryland}, eds.\ S.\ Holt \& T.\
+Kallman, (New York: AIP).
+
+Bromley, B.\ C., Laflamme, R., Warren, M.\ S., \& Zurek, W.\ H.  1996,
+``The Distribution of Matter Around Luminous Galaxies,''  in
+{\em Dark Matter in Cosmology, Quantum Measurements, Experimental
+Gravitation, 31st Rencontre de Moriond}.
+
+
+Bromley, B.\ C., Brainerd, T.\ G., Warren, M.\ S., \& Zurek, W.\ H.
+1996, ``Cosmic Structure on Small Scales: Results on Cluster Cores and
+Redshift-Space Power Spectra,'' in {\em Mapping, Measuring and
+Modeling the Universe, Valencia Proceedings}, ed. P. Coles
+(San Francisco: A.\ S.\ P.\ Conf. Ser.).
+
+
+ Bromley, B.\ C., Brainerd, T.\ G., Warren, M.\ S., 
+ Zurek, W.\ H., \& Quinn, P.\ J.
+ 1995, ``On Cluster Cores and Power Spectra'' in {\em Clustering in the 
+ Universe, Proceedings of the XXX$^{\rm th}$ Moriond Meeting}.
+
+%Brainerd, T.\ G., Bromley, B.\ C., Warren, M.\ S., \& Zurek, W.\ H.
+%1995, ``Testing Theories of Structure Formation,'' in {\em Clusters,
+%Lensing \& the Future of the Universe, Proceedings of the 1995 Mtg.
+%of the Astron.\ Soc.\ of the Pacific},
+%eds. V. Trimble \& A. Reisenegger
+%(San Francisco: A.\ S.\ P.\ Conf. Ser.).
+
+Bromley, B.\ C., Warren, M.\ S., Zurek, W.\ H., \& Quinn, P.\ J.
+1995, ``Rich Cluster Simulation:
+Dynamics and Mass Estimates'' in {\em Dark Matter, Proceedings of
+the Fifth Annual Astrophysics Conference in Maryland}, eds.\ 
+S.\ Holt \& D.\ Bennett
+(New York: AIP).
+pp.\ 433--436.
+
+%Zurek, W.\ H., Bromley, B.\ C., Warren, M.\ S. 1995, 
+%``Second Coming of Cold Dark Matter?'' in {\em Dark Matter, Proceedings of
+%the Fifth Annual Astrophysics Conference in Maryland}, 
+%eds.\ S.\ Holt \& D.\ Bennett
+%(New York: AIP).
+% pp.\ 397--406.
+
+Bromley, B.\ C. 1993, ``Multiresolution Analysis in Two or More
+Dimensions,'' in {\em Astronomical Data Analysis Software and Systems II},
+ed.\ Hanisch, R., Brissenden, R., \& Barnes, J.  
+(San Francisco: A.\ S.\ P.\ Conf. Ser.).
+
+Bromley, B.\ C.  1992, ``The Large-Scale Structure of the Universe:
+A Multiresolution Analysis,'' in {\em IEEE-SP International 
+Symposium on Time-Frequency and Time-Scale Analysis},  
+ed.\ Atlas, L.\ E., \& Mallat, S. (Piscataway: IEEE).
+
+
+
+\shead{Selected Invited Talks and Presentations}
+\vspace{11pt}
+
+Meglino, A., Essunfeld, A., Fabrycky, D., Kite, E., \&\ Bromley, B., 2026, ``Artificial Planetary Torus,''
+247th meeting of the American Astronomical Society.
+
+Bromley, B.\ C., 2020, ``Charon's legacy? On the origin of Pluto's small moons,'' invited presentation to the New Horizons GGI team.
+
+{Dall'As{\'e}n}, A.~G., \textit{et al.} 2020,
+``Analyzing the Thermal Metamorphism Process of Carbonaceous Chondrites Using Raman Spectroscopy,'' \textit{Lunar and Planetary Science Conference}, 51, 2920.
+
+%{Dall'As{\'e}n}, A.~G., \textit{et al.} 2019,
+%``Comparing Carbonaceous Chondritic Meteorites Using Micro-Raman Spectroscopy and SEM/EDS,'' \textit{Lunar and Planetary Science Conference}, 50, 2897.
+
+%5\newpage
+%\mbox{} \hfill {\it B.\ C.\ Bromley}
+
+%\shead{Selected Invited Talks and Presentations (cont.)}
+%\vspace{11pt}
+%\centerline{\em Selected Talks and Presentations (cont.)}
+%\vspace{11pt}
+
+{Dall'As{\'e}n}, A.~G., \textit{et al.}
+%{Stokke}, A.~R., {Paul}, R., 
+% {Kayastha}, R., {Bromley}, B.~C., and {Kenyon}, S.~J.} 
+2018,
+``{Mineralogical and Elemental Composition of Carbonaceous Chondrites by Micro-Raman Spectroscopy and SEM/EDS},'', \textit{Lunar and Planetary Science Conference}, 49, 2571.
+
+Bromley, B.\ C., \& Kenyon, S.~J. 2017, ``Dynamical shake-up and the low mass of Mars,'' {\em AAS/Division for Planetary Sciences Meeting Abstracts}, 49.
+
+Bromley, B.\ C., \& Kenyon, S.~J. 2016, ``From Disk to Planets: A
+Theoretical Perspective,'' {\em Resolving planet formation in the era
+  of ALMA and extreme AO}, Santiago, Chile.
+
+% Bromley, B.\ C. 2015, ``Making Terrestrial Planets,''
+% Idaho State University, Pocetello, ID.
+
+
+%Dall'As{\'e}n, \textit{et al.} 2016, ``Structural
+%``Characterization of carbonaceous meteoritic fragments found in Antarctica by high-resolution Raman spectroscopy and SEM/EDS,'' {\em American Physical Society April
+%  Meeting Abstracts}, L1.034.
+
+%Dall'As{\'e}n, et al.\ 2015, ``Structural
+%and compositional characterization of carbonaceous meteorites for
+%clues to planet formation,'' {\em American Physical Society April
+%  Meeting Abstracts}, L1.034.
+
+Zollinger, R., Armstrong, J.\ C., \& Bromley, B.\ C. 2014, ``Tidal
+Evolution of Exomoons using a Self-Consistent Tidal and Dynamical
+Model,'' {\em American Astronomical Society Meeting Abstracts}, 223, 347.06.
+
+%Bromley, B.~C. 2015, ``The Revenge of Pluto (and other stories from the
+%outer Solar System),'' College of Science {\em Science at Breakfast}
+%talk to the SLC business community.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2013, ``Satellite formation
+%around Pluto-Charon,''
+%American Astronomical Society/DPS Meeting \#45, 303.05.
+
+%Bromley, B.~C. 2013, ``Migration of Saturn's moonlets,''
+%Laboratory for Atmospheric and Space Physics, University
+%of Colorado.
+
+%Bromley, B.~C., Brown, W.~J.,  Kenyon, S.~J., 
+%\& Geller, M.\ J. 2013 ``Binary Star Disruptions \& the Growth of Massive Black Holes,''
+%SnowPAC -- Black Hole Fingerprints: Dynamics, Disruptions and Demographics,
+%Snowbird, UT.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2013, ``Brightening up the
+%Infrared Sky: Debris disks and terrestrial planet formation,''
+%American Astronomical Society Meeting Abstracts, 221, 325.01.
+
+%Dimas, S., Tyler, S.,  
+%Johnston, J., Dall'As\'{e}n, A., Ivans, I. I., Gerton, J., Bromley, B. C.
+%2013, ``Using Nanotechnology to Study Planet Formation,'' 
+%American Astronomical Society Meeting 
+%Abstracts, 221, 353.12.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2011, ``The Diversity of Planetary
+%Systems,'' The First Kepler Science Conference, NASA/Ames, Moffett
+%  Field, CA.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2011, ``The Evolution of
+%Protoplanetary Disks and the Diversity of Giant Planets,'' 
+%Extreme Solar Systems II, Jackson, WY.
+
+%Bromley, B.~C. 2011, ``Planet formation,''
+%Physics \& Astronomy Colloquium, BYU, Provo, UT.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2010, ``Numerical simulations of
+%planet formation,'' American Physical Society 4C Meeting, Weber State,
+%UT.
+
+%Bromley, B.~C. 2008, ``Coagulation theory of planet formation,''
+%National Tsing Hua University, Hsinchu, Taiwan.
+
+%Bromley, B.~C. 2008, ``Hypervelocity stars,'' Gravity Wave Center,
+%University of Wisconsin, Milwaukee, WI.
+
+%Bromley, B.~C., Beetle, C., Hernandez, N.~G., \& Price, R.~H.\ 2007,
+%``Adapted coordinates and the eigenspectral method for solving the
+%periodic standing wave problem,'' April 2007 APS Meeting,
+%Jacksonville, FL.
+
+Bromley, B.~C., \& Cranor, M. 2006,
+``Teaching Einstein: from epicycles to the equivalence principle,''
+April 2006 APS Meeting, Dallas, TX.
+
+%Read, J., Yoshida, S., Bromley, B.~C., Uryu, K., \& Friedman, J. 2006, 
+%``Models of helically symmetric binary systems,''
+%April 2006 APS Meeting, Dallas, TX.
+
+%Read, J.~S., Uryu, K., Yoshida, S., Bromley, B.~C., \& Friedman, J. 2005, 
+%``Constructing helically symmetric spacetimes,'' 
+%April 2005 APS Meeting, Tampa, FL.
+
+%Price, R.~H., Bromley, B.~C., \& Owen, R.~O. 2004, 
+%``Numerical approaches to the standing wave approximation for black
+%hole binary inspiral,'' April 2004 APS Meeting, Denver, CO.
+
+%Bromley, B.~C., \& Kenyon, S.~J. 2004, ``Signatures of
+%Terrestrial Planet Formation,'' Weber State University, Weber, UT.
+
+%Bromley, B.~C., 2003, ``Numerical Results for the Periodic
+%Standing Wave Approximation in 3D,'' {Pacific Coast Gravity Meeting},
+%Salt Lake City, UT.
+
+%Kenyon, S.~J., \& Bromley, B.~C., 2002, ``Dusty Rings Are Signposts of
+%Recent Planet Formation,'' in {\em NASA/JPL} presentation at
+%Supercomputing 2002 Conference, Baltimore, MD.
+
+%Pariev, V. I., Bromley, B.~C., \& Miller, W. A. 2001, ``Estimation of
+%relativistic accretion disk parameters,''
+%{American Astronomical Society}, 197th Meeting, San Diego, CA.
+
+%4-corner's talk
+%Bromley, B.~C., ``Statistical Properties of the Cosmic Microwave
+%Background,'' 1999, American Physical 
+%Society 4C Meeting, University of Arizona, Tucson, AZ.
+
+%Barton, E. J., Bromley, B.~C., \& Geller, M. J. 1999,
+%``Kinematic Effects of Tidal Interaction on Galaxy Rotation Curves,''
+%{\em American Astronomical Society}, 193rd Meeting, Austin, TX.
+
+
+%\newpage
+%\mbox{} \hfill {\it B.\ C.\ Bromley}
+
+%santa fe
+
+%Bromley, B.~C., 1999, ``A Lightweight Review of Middleweight Black
+%Holes,'' {\em Matters of Gravity}, Newsletter of the Topical Group on
+%Gravitation of the American Physical Society,\\ {\tt
+%http://gravity.phys.psu.edu/mog/mog14/mog14.html}.
+
+%Bromley, B.~C. 1998, ``Spectral Classification of Galaxies in
+%the Las Campanas Redshift Survey,'' Fermi National Accelerator Laboratory,
+%Batavia, IL.
+
+%Bromley, B.~C. 1998, ``Clustering of Galaxies in
+%Las Campanas Redshift Survey,'' University of Illinois,
+%Urbana, IL.
+
+%Bromley, B.~C. 1997, ``Bounds on the radius of disk emission
+%around a supermassive black hole,'' Institute for Advanced Study,
+%Princeton, NJ.
+
+%Bromley, B.~C. 1996, ``Strong Field General Relativity and
+%Line Emission from AGNs,'' Harvard-Smithsonian Center for 
+%Astrophysics Theory Seminar, Cambridge, MA.
+
+%Bromley, B.~C. 1995, ``Peculiar Velocities in Numerical Simulations:
+%An Examination of Redshift-Space Power,''  
+%the Heron Island Workshop on Peculiar Velocities, Queensland, Australia.
+
+
+\commentout{
+
+Bromley, B.~C. 1994, ``Measuring the Mass Density of the Universe,''
+Relativity Seminar Series, {\em University of Texas}, Dallas, TX.
+
+Bromley, B.~C. 1994, ``Galaxy Redshift Correlations and the Cosmic
+Mass Density,'' Los Alamos Astrophysics Colloquium, {\em Los Alamos
+National Laboratory}, Los Alamos, NM.
+
+Bromley, B.~C., \& Wegner, G. 1993, ``A Multiresolution 
+Wavelet Analysis of Cosmic Density,'' {\em NASA GSRP Symposium},
+Washington, D. C.
+
+Bromley, B.~C. 1992, ``A Wavelet Analysis of Large-Scale Structure,''
+{\em American Astronomical Society}, 181st Meeting, Phoenix, AZ.
+
+Bromley, B.~C. 1992, ``Detecting Faint Echoes from Stellar-Flare 
+Outbursts,''
+{\em American Astronomical Society}, 179th Meeting, Atlanta, GA.
+}%commentout
+
+\vspace{0.15in}
+
+For more information, please visit
+\ {\small\tt http://www.physics.utah.edu/\~{}bromley}
+\end{document}
+
+
